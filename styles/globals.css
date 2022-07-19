@@ -424,7 +424,73 @@ body {
 } */
 
 .step-img {
-  width: 35%;
+  width: 50%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
   /* height: 45%; */
   border-radius: 50%;
+}
+
+/* **************************** */
+/*     TESTIMONIALS SECTION     */
+/* **************************** */
+
+.section-testimonials {
+  background-color: #e9fdfd;
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+  align-items: center;
+}
+
+.testimonials-container {
+  padding: 9.6rem;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 4.8rem;
+  column-gap: 8rem;
+}
+
+.testimonial-img {
+  width: 11rem;
+  height: 11rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+
+.testimonial-text {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  margin-bottom: 1.6rem;
+}
+
+.testimonial-name {
+  font-size: 1.6rem;
+  color: #777;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 /1;
+  object-fit: cover;
+  transition: all 0.5s;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
 }

@@ -50,10 +50,10 @@ function HomePage() {
             <p className="step-number">01</p>
             <h3 className="heading-tertiary">Take her to do some sport!</h3>
             <p className="step-description">
-              She's very versatile! Surfing, cycling, kayaking, bouldering,
-              running, basically everything. Can you believe it? Pro tip: the
-              more balance needed, the better. Somebody says she's also very
-              good and dangerous at wrestling. At your own risk!
+              She's very versatile! Surfing, cycling, squash, kayaking,
+              bouldering, running, basically everything. Can you believe it? Pro
+              tip: the more balance needed, the better. Somebody says she's also
+              very good and dangerous at wrestling. At your own risk!
             </p>
           </div>
           <div className="step-img-box">
@@ -101,6 +101,147 @@ function HomePage() {
               alt="iPhone app preferences"
             />
           </div>
+        </div>
+      </section>
+
+      {/* TESTIMONIALS */}
+      <section class="section-testimonials">
+        <div class="testimonials-container">
+          <span class="subheading">Testimonials</span>
+          <h2 class="heading-secondary">
+            Once you try her, life won't be the same anymore
+          </h2>
+
+          <div class="testimonials">
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer Dave Bryson"
+                src="img/me-love.jpeg"
+              />
+              <blockquote class="testimonial-text">
+                I clearly love her.
+              </blockquote>
+              <p class="testimonial-name">&mdash; Me</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer Ben Hadley"
+                src="img/donaldT.png"
+              />
+              <blockquote class="testimonial-text">
+                She is a yuuuuge success for the human kind. Tremendous girl,
+                she's not form China.
+              </blockquote>
+              <p class="testimonial-name">&mdash; Donald J. Trump</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer Steve Miller"
+                src="img/honey-badger.png"
+              />
+              <blockquote class="testimonial-text">
+                She's the only one more badass than me.
+              </blockquote>
+              <p class="testimonial-name">
+                &mdash; The (nastyass) honey badger
+              </p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer Hannah Smith"
+                src="img/antoneo.png"
+              />
+              <blockquote class="testimonial-text">
+                The source of inspiration for all my songs.
+              </blockquote>
+              <p class="testimonial-name">&mdash; Antonello Venditti</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer Hannah Smith"
+                src="img/llama.jpg"
+              />
+              <blockquote class="testimonial-text">
+                Please come back!!! miss u xx
+              </blockquote>
+              <p class="testimonial-name">&mdash; Peruvian llama</p>
+            </figure>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <figure class="gallery-item">
+            <img
+              src="img/love.jpeg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/sleepy.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/tongue.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/duck.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gatto2.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/puppy.jpeg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gatto1.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/lenglegs.jpeg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/fragola.jpeg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
         </div>
       </section>
     </Fragment>
