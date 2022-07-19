@@ -108,9 +108,7 @@ function HomePage() {
       <section class="section-testimonials">
         <div class="testimonials-container">
           <span class="subheading">Testimonials</span>
-          <h2 class="heading-secondary">
-            Once you try her, life won't be the same anymore
-          </h2>
+          <h2 class="heading-secondary">Impossible not to like her</h2>
 
           <div class="testimonials">
             <figure class="testimonial">
@@ -119,9 +117,7 @@ function HomePage() {
                 alt="Photo of customer Dave Bryson"
                 src="img/me-love.jpeg"
               />
-              <blockquote class="testimonial-text">
-                I clearly love her.
-              </blockquote>
+              <blockquote class="testimonial-text">I love her.</blockquote>
               <p class="testimonial-name">&mdash; Me</p>
             </figure>
 
@@ -147,39 +143,39 @@ function HomePage() {
               <blockquote class="testimonial-text">
                 She's the only one more badass than me.
               </blockquote>
-              <p class="testimonial-name">
+              <p className="testimonial-name">
                 &mdash; The (nastyass) honey badger
               </p>
             </figure>
 
-            <figure class="testimonial">
+            <figure className="testimonial">
               <img
-                class="testimonial-img"
+                className="testimonial-img"
                 alt="Photo of customer Hannah Smith"
                 src="img/antoneo.png"
               />
-              <blockquote class="testimonial-text">
+              <blockquote className="testimonial-text">
                 The source of inspiration for all my songs.
               </blockquote>
-              <p class="testimonial-name">&mdash; Antonello Venditti</p>
+              <p className="testimonial-name">&mdash; Antonello Venditti</p>
             </figure>
 
-            <figure class="testimonial">
+            <figure className="testimonial">
               <img
-                class="testimonial-img"
+                className="testimonial-img"
                 alt="Photo of customer Hannah Smith"
                 src="img/llama.jpg"
               />
-              <blockquote class="testimonial-text">
+              <blockquote className="testimonial-text">
                 Please come back!!! miss u xx
               </blockquote>
-              <p class="testimonial-name">&mdash; Peruvian llama</p>
+              <p className="testimonial-name">&mdash; Peruvian llama</p>
             </figure>
           </div>
         </div>
 
-        <div class="gallery">
-          <figure class="gallery-item">
+        <div className="gallery">
+          <figure className="gallery-item">
             <img
               src="img/love.jpeg"
               alt="Photo of beautifully
