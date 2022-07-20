@@ -1,0 +1,127 @@
+.container {
+  position: relative;
+  height: 75vh;
+}
+
+.container--blu {
+  background-color: blue;
+}
+
+.TL {
+  width: 25%;
+  height: 25%;
+  background-color: rgb(175, 136, 84);
+  animation: translation-TL 4s ease-in forwards infinite;
+}
+
+.TC {
+  width: 50%;
+  height: 25%;
+  background-color: rgb(84, 120, 175);
+  /* transform: translate(50%, -100%); */
+  position: absolute;
+  top: 0;
+  left: 25%;
+}
+
+.TR {
+  width: 25%;
+  height: 25%;
+  background-color: rgb(175, 84, 84);
+  position: absolute;
+  top: 0;
+  left: 75%;
+  animation: translation-TR 4s ease-in forwards infinite;
+  /* transform: translate(300%, -200%); */
+}
+
+.CC {
+  width: 50%;
+  height: 50%;
+  background-color: antiquewhite;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+
+/* .TL {
+  width: 25%;
+  height: 25%;
+  background-color: rgb(175, 136, 84);
+  animation: translation-TL 4s ease-in forwards infinite;
+} */
+
+.BL {
+  width: 25%;
+  height: 25%;
+  background-color: rgb(84, 175, 96);
+  /* transform: translate(50%, -100%); */
+  position: absolute;
+  top: 75%;
+  left: 0%;
+  animation: translation-BL 4s ease-in forwards infinite;
+}
+
+.BR {
+  width: 25%;
+  height: 25%;
+  background-color: rgb(175, 84, 167);
+  position: absolute;
+  top: 75%;
+  left: 75%;
+  animation: translation-BR 4s ease-in forwards infinite;
+}
+
+@keyframes translation-TL {
+  /* 0% {
+    transform: translateX(0);
+  } */
+  25% {
+    transform: translateY(300%);
+  }
+  50% {
+    transform: translateX(300%) translateY(300%);
+  }
+  75% {
+    transform: translateX(300%);
+  }
+  /* 100% {
+    transform: translateX(0%);
+  } */
+}
+
+@keyframes translation-TR {
+  25% {
+    transform: translateX(-300%);
+  }
+  50% {
+    transform: translateX(-300%) translateY(300%);
+  }
+  75% {
+    transform: translateY(300%);
+  }
+}
+
+@keyframes translation-BL {
+  25% {
+    transform: translateX(300%);
+  }
+  50% {
+    transform: translateX(300%) translateY(-300%);
+  }
+  75% {
+    transform: translateY(-300%);
+  }
+}
+
+@keyframes translation-BR {
+  25% {
+    transform: translateY(-300%);
+  }
+  50% {
+    transform: translateX(-300%) translateY(-300%);
+  }
+  75% {
+    transform: translateX(-300%);
+  }
+}

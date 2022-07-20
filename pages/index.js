@@ -1,6 +1,8 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useState } from 'react';
+import Popup from '../components/Popup';
 
 function HomePage() {
+  const [showPopup, setShowPopup] = useState(false);
   return (
     <Fragment>
       <section className="section-hero">
@@ -8,10 +10,20 @@ function HomePage() {
           <div className="hero-text-box">
             <h1 className="heading-primary">Letizia Fregolo</h1>
             <p className="hero-description">A name that says everything</p>
-            <a href="#" className="btn btn--full margin-right-sm">
+            <button
+              className="btn btn--full margin-right-sm"
+              onClick={() => setShowPopup(true)}
+            >
+              Wish her happy birthday!
+            </button>
+            {/* <a
+              href="#"
+              className="btn btn--full margin-right-sm"
+              onClick={() => setShowPopup(true)}
+            >
               Tell her how much you love her
-            </a>
-            <a href="#" className="btn btn--outline">
+            </a> */}
+            <a href="#section-how" className="btn btn--outline">
               Learn more &darr;
             </a>
             <div className="delivered-meals">
@@ -38,7 +50,9 @@ function HomePage() {
         </div>
       </section>
 
-      <section className="section-how">
+      {showPopup && <Popup setShowPopup={setShowPopup} />}
+
+      <section id="section-how" className="section-how">
         <div className="container">
           <span className="subheading">How it works</span>
           <h2 className="heading-secondary">
@@ -87,11 +101,11 @@ function HomePage() {
             <p className="step-number">03</p>
             <h3 className="heading-tertiary">Sit back and enjoy!!!</h3>
             <p className="step-description">
-              It's time to ripe the benefits. Watch her consuming sugars, carbs
-              and fats in her typical irresistible lovely fashion. It will fill
-              you with joy. In some instances a spoon can magically appear on
-              her nose and hang for an indefinite amount of time (see visual
-              proof on the right). And no, that's not a Dutch tradition!
+              Watch her consuming sugars, carbs and fats in her typical
+              irresistible lovely fashion. It will fill you with joy. In some
+              instances a spoon can magically appear on her nose and hang for an
+              indefinite amount of time (see below). And no, that's not a Dutch
+              tradition!
             </p>
           </div>
           <div className="step-img-box">
