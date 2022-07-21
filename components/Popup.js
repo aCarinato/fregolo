@@ -12,15 +12,29 @@ function Popup({ setShowPopup }) {
   return (
     <Modal onClose={onClose}>
       <div className={classes.container}>
-        <div className={classes.TL}>TL</div>
-        <div className={classes.TC}>TC</div>
-        <div className={classes.TR}>TR</div>
-        <div className={classes.CL}>CL</div>
-        <div className={classes.CC}>CC</div>
-        <div className={classes.CR}>CR</div>
-        <div className={classes.BL}>BL</div>
-        <div className={classes.BC}>BC</div>
-        <div className={classes.BR}>BR</div>
+        <div className={classes.top}></div>
+        <div className={classes.main}>
+          <div className={classes.TL}>
+            <img className={classes.image} src="img/penguin.png" />
+          </div>
+          <div className={classes.TC}></div>
+          <div className={classes.TR}>
+            <img className={classes.image} src="img/io.jpg" />
+          </div>
+          <div className={classes.CL}></div>
+          <div className={classes.CC}>
+            <img className={classes.image} src="img/smallfregola.jpg" />
+          </div>
+          <div className={classes.CR}></div>
+          <div className={classes.BL}>
+            <img className={classes.image} src="img/uovo.png" />
+          </div>
+          <div className={classes.BC}></div>
+          <div className={classes.BR}>
+            <img className={classes.image} src="img/froglegs.png" />
+          </div>
+        </div>
+        <div className={classes.bottom}></div>
       </div>
     </Modal>
   );

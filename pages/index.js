@@ -162,6 +162,18 @@ function HomePage() {
               </p>
             </figure>
 
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer Steve Miller"
+                src="img/dicaprio.png"
+              />
+              <blockquote class="testimonial-text">
+                Before meeting her my life was miserable.
+              </blockquote>
+              <p className="testimonial-name">&mdash; Leonardo DiCaprio</p>
+            </figure>
+
             <figure className="testimonial">
               <img
                 className="testimonial-img"
@@ -248,6 +260,13 @@ function HomePage() {
           <figure class="gallery-item">
             <img
               src="img/fragola.jpeg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/happybday.jpg"
               alt="Photo of beautifully
             arranged food"
             />
