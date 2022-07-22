@@ -104,7 +104,7 @@ function HomePage() {
               Watch her consuming sugars and carbs in her typical irresistible
               lovely fashion. It will fill you with joy. In some instances a
               spoon can magically appear on her nose and hang for an indefinite
-              amount of time (see below).
+              amount of time.
             </p>
           </div>
           <div className="step-img-box">
