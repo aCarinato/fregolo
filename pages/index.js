@@ -65,9 +65,9 @@ function HomePage() {
             <h3 className="heading-tertiary">Take her to do some sport!</h3>
             <p className="step-description">
               She's very versatile! Surfing, cycling, squash, kayaking,
-              bouldering, running, basically everything. Can you believe it? Pro
-              tip: the more balance needed, the better. Somebody says she's also
-              very good and dangerous at wrestling. At your own risk!
+              bouldering, running, basically everything. Pro tip: the more
+              balance needed, the better. Somebody says she's also very good and
+              dangerous at wrestling. At your own risk!
             </p>
           </div>
           <div className="step-img-box">
@@ -143,7 +143,7 @@ function HomePage() {
               />
               <blockquote class="testimonial-text">
                 She is a yuuuuge success for the human kind. Tremendous girl,
-                she's not form China.
+                she's not from China.
               </blockquote>
               <p class="testimonial-name">&mdash; Donald J. Trump</p>
             </figure>
@@ -208,65 +208,79 @@ function HomePage() {
             arranged food"
             />
           </figure>
-          <figure class="gallery-item">
+          <figure className="gallery-item">
             <img
               src="img/sleepy.jpg"
               alt="Photo of beautifully
             arranged food"
             />
           </figure>
-          <figure class="gallery-item">
+          <figure className="gallery-item">
             <img
               src="img/tongue.jpg"
               alt="Photo of beautifully
             arranged food"
             />
           </figure>
-          <figure class="gallery-item">
+          <figure className="gallery-item">
             <img
               src="img/duck.jpg"
               alt="Photo of beautifully
             arranged food"
             />
           </figure>
-          <figure class="gallery-item">
+          <figure className="gallery-item">
             <img
               src="img/gatto2.jpg"
               alt="Photo of beautifully
             arranged food"
             />
           </figure>
-          <figure class="gallery-item">
+          <figure className="gallery-item">
             <img
               src="img/puppy.jpeg"
               alt="Photo of beautifully
             arranged food"
             />
           </figure>
-          <figure class="gallery-item">
+          <figure className="gallery-item">
             <img
               src="img/gatto1.jpg"
               alt="Photo of beautifully
             arranged food"
             />
           </figure>
-          <figure class="gallery-item">
+          <figure className="gallery-item">
             <img
               src="img/lenglegs.jpeg"
               alt="Photo of beautifully
             arranged food"
             />
           </figure>
-          <figure class="gallery-item">
+          <figure className="gallery-item">
             <img
               src="img/fragola.jpeg"
               alt="Photo of beautifully
             arranged food"
             />
           </figure>
-          <figure class="gallery-item">
+          <figure className="gallery-item">
             <img
               src="img/happybday.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure className="gallery-item">
+            <img
+              src="img/sexy.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure className="gallery-item">
+            <img
+              src="img/patagonia.jpg"
               alt="Photo of beautifully
             arranged food"
             />

@@ -19,7 +19,7 @@ function Popup({ setShowPopup }) {
           </div>
           <div className={classes.TC}></div>
           <div className={classes.TR}>
-            <img className={classes.image} src="img/io.jpg" />
+            <img className={classes.image} src="img/cane.jpg" />
           </div>
           <div className={classes.CL}></div>
           <div className={classes.CC}>
