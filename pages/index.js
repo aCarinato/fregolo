@@ -101,11 +101,10 @@ function HomePage() {
             <p className="step-number">03</p>
             <h3 className="heading-tertiary">Sit back and enjoy!!!</h3>
             <p className="step-description">
-              Watch her consuming sugars, carbs and fats in her typical
-              irresistible lovely fashion. It will fill you with joy. In some
-              instances a spoon can magically appear on her nose and hang for an
-              indefinite amount of time (see below). And no, that's not a Dutch
-              tradition!
+              Watch her consuming sugars and carbs in her typical irresistible
+              lovely fashion. It will fill you with joy. In some instances a
+              spoon can magically appear on her nose and hang for an indefinite
+              amount of time (see below).
             </p>
           </div>
           <div className="step-img-box">
