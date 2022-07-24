@@ -14,7 +14,7 @@ function HomePage() {
               className="btn btn--full margin-right-sm"
               onClick={() => setShowPopup(true)}
             >
-              Wish her happy birthday!
+              Show her love
             </button>
             {/* <a
               href="#"
